@@ -1,7 +1,7 @@
 [package]
-name = "{{project-name}}"
+name = "rs-csv2all"
 version = "0.1.0"
-authors = ["{{authors}}"]
+authors = ["1garo"]
 edition = "2018"
 
 [lib]
@@ -24,7 +24,7 @@ console_error_panic_hook = { version = "0.1.6", optional = true }
 # allocator, however.
 #
 # Unfortunately, `wee_alloc` requires nightly Rust when targeting wasm for now.
-wee_alloc = { version = "0.4.5", optional = true }
+wee_alloc = { version = "0.4.5", optional = false}
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"
